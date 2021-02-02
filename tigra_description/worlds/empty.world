@@ -11,6 +11,6 @@
 		<include>
 			<uri>model://ground_plane</uri>
 		</include>
-		<plugin name="robot_gazebo" filename="librobot_gazebo.so"/>
+<!-- <plugin name="robot_gazebo" filename="librobot_gazebo.so"/> -->
 	</world>
 </sdf>
