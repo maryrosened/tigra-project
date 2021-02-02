@@ -199,18 +199,18 @@
 	<xacro:steer_wheel name="joint_left_wheel_1" base_name="base_link" xyz="0.5 0.375 -0.3" />
 	<xacro:speed_wheel name="joint_right_wheel_2" base_name="base_link" xyz="-0.5 -0.375 -0.3" />
 	<xacro:speed_wheel name="joint_left_wheel_2" base_name="base_link" xyz="-0.55 0.375 -0.3" />
-<gazebo>
-    <!-- <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+<!--<gazebo>
+     <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
       <robotNamespace>/</robotNamespace>
-    </plugin> -->
+    </plugin> 
 
-    <!-- Simulated vehicle interface -->
+     Simulated vehicle interface 
     <plugin name="ModelPlugin" filename="librobot_gazebo.so" >
       <robotName>tigra</robotName>
       <wheelbase>base_link</wheelbase>
       <_joint>joint_right_wheel_2</_joint>
     </plugin>
-</gazebo>
+</gazebo> -->
 
 </robot>
 
